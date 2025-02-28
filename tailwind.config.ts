@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["ui-sans-serif", "system-ui"],
+        lora: ["Lora Script"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
