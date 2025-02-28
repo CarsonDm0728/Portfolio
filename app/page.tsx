@@ -1,4 +1,3 @@
-import Image from "next/image";
 import IconList from "@/components/IconList";
 import { strengths } from "@/data"; // Import strengths
 

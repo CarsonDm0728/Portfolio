@@ -1,18 +1,20 @@
-"use client"
+"use client";
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
+import Image from "next/image";
 
 export default function Sidebar() {
   return (
     <div>
-      <img
+      <Image
         src="/assets/images/profile.png"
         alt="avatar"
         className="mx-auto border rounded-full"
-        height="128"
-        width="128"
+        width={128}
+        height={128}
+        priority
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-lora">
         <span className="text-green-500 ">Carson</span> Tan

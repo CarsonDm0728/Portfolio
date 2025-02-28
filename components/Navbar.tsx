@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useEffect, FunctionComponent } from 'react'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 
 const NavItem: FunctionComponent<{
    active: string
-   setActive: Function
+   setActive: (name: string) => void 
    name: string
    route: string
 }> = ({ active, setActive, name, route }) => {
@@ -20,6 +20,7 @@ const NavItem: FunctionComponent<{
       </Link>
    ) : null
 }
+
 
 const Navbar = () => {
    const pathname = usePathname() 
