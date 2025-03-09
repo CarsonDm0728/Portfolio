@@ -34,10 +34,10 @@ export default function Sidebar() {
       </a>
 
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="">
+        <a href="https://www.linkedin.com/in/carson-tan-miao-qun-194904273/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://github.com/CarsonDm0728">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
@@ -50,7 +50,7 @@ export default function Sidebar() {
           <GoLocation className="mr-2" /> <span>Johor, Malaysia </span>
         </div>
         <p className="my-2 "> miaoquntan@gmail.com </p>
-        <p className="my-2"> 0187906659 </p>
+        <a href="https://wa.me/60187906659"><p className="my-2"> 0187906659 </p></a>
       </div>
 
       {/* Email Button */}
