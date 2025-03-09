@@ -24,7 +24,7 @@ export default function Sidebar() {
       </p>
 
       <a
-        href="/assets/docs/Resume Carson 2025-V2.pdf"
+        href="/assets/docs/Resume Carson 2025-V3.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer"
