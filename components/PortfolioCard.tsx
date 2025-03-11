@@ -11,7 +11,7 @@ const PortfolioCard: React.FC<{ portfolio: PortfolioCardProps }> = ({
     portfolio;
 
   return (
-    <div className="p-4 bg-white shadow-lg rounded-lg">
+    <div className="p-4 bg-white rounded-lg">
       {/* Project Image */}
       <div className="relative w-full h-40 mb-3">
         <Image
